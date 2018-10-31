@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<htm lang="de">
+<html lang="de">
 <head>
     <meta charset="utf-8" />                <!--Lässt Broweser Schrift (Umlaute,usw.) interpretieren-->
 <title>Nachrichten, aktuelle Schlagzeilen und Videos - n-tv.de</title> <!--Titel der in tabs angezeigt wird-->
@@ -10,23 +10,23 @@ Matrikel: (260306)
 Datum: (26.10.2018) Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. Er wurde nicht kopiert und auch nicht diktiert. */-->
 <header><p>Mittwoch, 24. Oktober 2018 </p><p>13:04 Uhr Frankfurt </p><p>12:04 Uhr London </p><p>07:04 Uhr </p><p>New York 20:04 Uhr Tokio</p><!--Durch header-tag wird Kopfbereich der Seite festgelegt.-->
 <aside>
-    <a href="https://www.facebook.com/ntvNachrichten"> <img src="./imgicon/fb.png" height="50"></a>
-    <a href="https://www.n-tv.de/apps/n-tv-Eilmeldungen-auf-Messengern-article14595871.html"> <img src="./imgicon/wa.png" height="50"></a>
-    <a href="https://plus.google.com/+ntvde"> <img src="./imgicon/g.png" height="50"></a>
-    <a href="https://twitter.com/ntvde"> <img src="./imgicon/twitter.png" height="50"></a>
-    <a href="https://www.instagram.com/ntv_nachrichten/"> <img src="./imgicon/insta.png" height="50"></a>
-    <a href="https://www.pinterest.de/ntvde/"> <img src="./imgicon/p.png" height="50"></a>
+    <a href="https://www.facebook.com/ntvNachrichten"> <img src="./imgicon/fb.png" height="50" alt="fb" ></a>
+    <a href="https://www.n-tv.de/apps/n-tv-Eilmeldungen-auf-Messengern-article14595871.html"> <img src="./imgicon/wa.png" height="50" alt="whatsapp" ></a>
+    <a href="https://plus.google.com/+ntvde"> <img src="./imgicon/g.png" height="50" alt="google"></a>
+    <a href="https://twitter.com/ntvde"> <img src="./imgicon/twitter.png" height="50" alt="twitter"></a>
+    <a href="https://www.instagram.com/ntv_nachrichten/"> <img src="./imgicon/insta.png" height="50" alt="insta"></a>
+    <a href="https://www.pinterest.de/ntvde/"> <img src="./imgicon/p.png" height="50" alt="pinterest"></a>
 </aside>
 <br>
 <aside>
 <p>Berlin
 MI 	8° /12°
-DO 	7° /13°
+DO 	7° /16°
 </p>
-<img src="sun.png">
+<img src="sun.png" alt="wetter" >
 </aside>
 <br>
-<a href="https://www.n-tv.de/"><img src="bild3.png"height="150" width="200"></a> <!--Verlinckung zu anderen Seiten durch das <a> Tag-->
+<a href="https://www.n-tv.de/"><img src="bild3.png" height="150" width="200" alt="logo"></a> <!--Verlinckung zu anderen Seiten durch das <a> Tag-->
     <nav><!--Definiert Part mit Verlinkungen/Navigationsbereich-->
         <a href="https://www.n-tv.de/"><strong>Home</strong></a> |<br>
         <a href="https://www.n-tv.de/politik/"><strong>Politik</strong></a> |<br>
@@ -69,36 +69,25 @@ DO 	7° /13°
         </ul>
 </aside>
 </header><!--Ende des Kopfbereichs-->
-<article>
-<section><!--Durch section-tag wird der Abschnitt eines Inhaltsbereiches definiert-->
-<aside>
-        <h2>Höllenfahrt in Roms Untergrung</h2>
-        <img src=./img/video1.jpg>
-        <h3>Einstürzende Rolltreppe reißt Dutzende in die Tiefe</h3>
-        </section>
-        </aside>
-</article>
-<article><!--Durch article-tag werden Abschnitte gekennzeichnet, die wie ein Artikel aufgebaut sind. Z.B. Überschrift, Text, Bild, usw.-->
- <section>
- <aside>
-            <h2>Seltene Antonow 124</h2>
-            <img src=./img/video2.jpg>
-            <h3>300-Tonnen-Flieger landet in Düsseldorf</h3>
-            <p>Lange mussten sich Flugzeugliebhaber in Geduld üben. Doch jetzt landet sie endlich auf dem Düsseldorfer Flughafen: eine seltene Antonow 124.<br>Nach kurzem Aufenthalt wuchtet sich der 300 Tonne schwere Mega-Frachter dann auch schon wieder in die Lüfte.</p>
-            </section>
-            </aside>
-</article>
-<article>
-            <section>
-            <aside>
-            <h2>Die Wissenschaft hat festgestellt...</h2>
-            <img src=./img/video3.jpg>
-            <h3>Sehfehler verhalf da Vinci zu künstlerischem Weltrum</h3>
-            <p>In der Flut von Informationen und Zahlen verliert sich schnell der Überblick. n-tv bringt Licht ins Dunkel: <br>Da Vincis Kunst lebte von einem Sehfehler, väterliche Elternzeit wirkt jahrelang nach und unter der Marsoberfläche verbirgt sich Überraschendes.</p>
-    </section>
-    </aside>
-</article>
 <main><!--Durch main-tag Kennzeichnung des Haupteils, der Seite. In dem alle Hauptinformationen stehen, die zur Seite gehören.-->
+ <aside>
+        <h2>Höllenfahrt in Roms Untergrung</h2>
+        <img src=./img/video1.jpg alt="video1">
+        <h3>Einstürzende Rolltreppe reißt Dutzende in die Tiefe</h3>
+ </aside>
+<br>
+ <aside>
+        <h2>Seltene Antonow 124</h2>
+        <img src=./img/video2.jpg alt="video2" >
+        <h3>300-Tonnen-Flieger landet in Düsseldorf</h3>
+        <p>Lange mussten sich Flugzeugliebhaber in Geduld üben. Doch jetzt landet sie endlich auf dem Düsseldorfer Flughafen: eine seltene Antonow 124.<br>Nach kurzem Aufenthalt wuchtet sich der 300 Tonne schwere Mega-Frachter dann auch schon wieder in die Lüfte.</p>
+ </aside>
+<article>
+        <h2>Die Wissenschaft hat festgestellt...</h2>
+        <img src=./img/video3.jpg alt="video3">
+        <h3>Sehfehler verhalf da Vinci zu künstlerischem Weltrum</h3>            
+        <p>In der Flut von Informationen und Zahlen verliert sich schnell der Überblick. n-tv bringt Licht ins Dunkel: <br>Da Vincis Kunst lebte von einem Sehfehler, väterliche Elternzeit wirkt jahrelang nach und unter der Marsoberfläche verbirgt sich Überraschendes.</p>
+</article>
 <section>
 <a href="https://www.n-tv.de/sport/"><h1>Sport</h1></a>  <!--durch <h1> Definierung der Hauptüberschrift-->
 <div>
@@ -121,180 +110,173 @@ DO 	7° /13°
 </ul>
 </div>  
 <div>                                                <!--Durch div Tag Abteilung eines Bereiches-->
-<h2>Der Sport-Tag</h2>
-<h3>16:12 Lothar Matthäus:" An Löwen muss man nicht zweifeln"</h3>
+    <h2>Der Sport-Tag</h2>
+    <h3>16:12 Lothar Matthäus:" An Löwen muss man nicht zweifeln"</h3>
 <br>
-<img src="https://i.eurosport.com/2017/05/31/2095325-43901715-2560-1440.jpg?w=1050"height="350" width="600" > <!--Einfügen von Bild auf absolutem Weg-->
+    <img src="https://i.eurosport.com/2017/05/31/2095325-43901715-2560-1440.jpg?w=1050" height="350" width="600" alt="sport"> <!--Einfügen von Bild auf absolutem Weg-->
 <br>
-<h2>Gewinnt Hamilton jetzt die WM?</h2>                 <!--Untergeordnete Überschriften mit h2 und h3-->
-<h3>Aus der Chancenlosigkeit greift Vettel an</h3>
-<p>Ausgerechnet auf Lewis-Hamilton-Terrain muss Sebastian Vettel versuchen,<br> die Entscheidung im Kampf um den WM-Titel in der Formel 1 aufzuschieben.<br> Auch wenn die Wende unmöglich scheint, sieht der deutsche Ferrari-Star darin eine Chance.</h3>    
-</p>                                                    <!--Paragraph/Textabscnitt mit dem <p> Tag-->
+    <h2>Gewinnt Hamilton jetzt die WM?</h2>                 <!--Untergeordnete Überschriften mit h2 und h3-->
+    <h3>Aus der Chancenlosigkeit greift Vettel an</h3>
+    <p>Ausgerechnet auf Lewis-Hamilton-Terrain muss Sebastian Vettel versuchen,<br> die Entscheidung im Kampf um den WM-Titel in der Formel 1 aufzuschieben.<br> Auch wenn die Wende unmöglich scheint, sieht der deutsche Ferrari-Star darin eine Chance.</p>                                                    <!--Paragraph/Textabscnitt mit dem <p> Tag-->
 <br>                                                    <!--Erzeugen von Zeilenumbrüchen durch <br>-->
 </div>
+</section>
 <section>
 <div>
-<a href="https://www.n-tv.de/politik/"><h1>Politik</h1></a> 
-<h2>Musikfestival im Visier des IS</h2>
-<img src="bild1.jpg"height="240" width="600">           
-<h3>Behörden vereiteln Anschlag in Deutschland</h3>
-<p>Drei Teams der Terrormiliz Islamischer Staat sollen nach Deutschland reisen, <br>um einen Anschlag auf ein Musikfestival zu verüben.<br> Doch dazu kommt es nicht. Eine Informantin des Verfassungsschutzes bringt die Sicherheitsbehörden auf die Spur der möglichen Attentäter.
-</p>                                                   
+    <a href="https://www.n-tv.de/politik/"><h1>Politik</h1></a> 
+    <h2>Musikfestival im Visier des IS</h2>
+    <img src="bild1.jpg" height="240" width="600" alt="politik">           
+    <h3>Behörden vereiteln Anschlag in Deutschland</h3>
+    <p>Drei Teams der Terrormiliz Islamischer Staat sollen nach Deutschland reisen, <br>um einen Anschlag auf ein Musikfestival zu verüben.<br> Doch dazu kommt es nicht. Eine Informantin des Verfassungsschutzes bringt die Sicherheitsbehörden auf die Spur der möglichen Attentäter.
+    </p>                                                   
 <br>
 </div>
 </section>
 <section>
 <div>
-<a href="https://www.n-tv.de/wirtschaft/"><h1>Wirtschaft</h1></a> 
-<h2>Geschäfte mit den Saudis</h2>
-<img src=./img/bild2.jpg height="400" width="600">      <!--Einfügen eines Bildes auf relativem Weg, da sich das Bild abgespeichert in einem anderen Order befindet-->
+    <a href="https://www.n-tv.de/wirtschaft/"><h1>Wirtschaft</h1></a> 
+    <h2>Geschäfte mit den Saudis</h2>
+    <img src=./img/bild2.jpg height="400" width="600" alt="wirtschaft">      <!--Einfügen eines Bildes auf relativem Weg, da sich das Bild abgespeichert in einem anderen Order befindet-->
 <br>
-<h3>Es geht um viel Geld</h3>
-<p>Der saudische Kronprinz war bisher ein Glücksfall für ausländische Unternehmen.<br> Doch sein Image bekommt nach dem Verschwinden des Oppositionellen Khashoggi ergebliche <br>Kratzer - und zwingt Geschäftspartner, sich kräftig zu verbiegen. Von Jan Gänger
-</p>
+    <h3>Es geht um viel Geld</h3>
+    <p>Der saudische Kronprinz war bisher ein Glücksfall für ausländische Unternehmen.<br> Doch sein Image bekommt nach dem Verschwinden des Oppositionellen Khashoggi ergebliche <br>Kratzer - und zwingt Geschäftspartner, sich kräftig zu verbiegen. Von Jan Gänger
+    </p>
 <br>
 </div>
 </section>
 <section>
 <div>
-<a href="https://www.n-tv.de/unterhaltung/"><h1>Unterhaltung</h1></a> 
-<h2>Sesamstraße verliert Legende</h2>
-<img src=./img/bild4.jpg>
-<h3>Bibo-Darsteller hängt Kostüm an den Nagel</h3>
-<p>Zweieinhalb Meter groß, gelb und fast 50 Jahre alt - das ist Bibo aus der Sesamstraße.<br> Der Dar Darsteller in dem Kostüm des Riesenvogels zieht nun einen Schlussstrich - mit einem lachenden und einem weinenden Auge. </p>
+    <a href="https://www.n-tv.de/unterhaltung/"><h1>Unterhaltung</h1></a> 
+    <h2>Sesamstraße verliert Legende</h2>
+    <img src=./img/bild4.jpg alt="unterhaltung">
+    <h3>Bibo-Darsteller hängt Kostüm an den Nagel</h3>
+    <p>Zweieinhalb Meter groß, gelb und fast 50 Jahre alt - das ist Bibo aus der Sesamstraße.<br> Der Dar Darsteller in dem Kostüm des Riesenvogels zieht nun einen Schlussstrich - mit einem lachenden und einem weinenden Auge. </p>
+</div>
+</section>
+<section>
+    <a href="https://www.n-tv.de/wissen/"><h1>Wissen</h1></a> 
+    <h2>Frisches Gemüse für Astronauten?</h2>
+    <img src=./img/wissen.jpg height="240" width="600" alt="wissen"> 
+    <h3>Fliegendes Gewächshaus kreist um die Erde</h3>
+    <p>Dass Pflanzen ohne Schwerkraft im Weltraum wachsen können, haben Experimente auf der ISS bewiesen. <br>Mit einem Gewächshaus im All wollen Forscher nun beobachten, wie gut Astronauten künftig bei Missionen mit frischem Gemüse versorgt werden können.</p>
+</section>
 <br>
-</section>
-</div>
 <section>
 <div>
-<a href="https://www.n-tv.de/wissen/"><h1>Wissen</h1></a> 
-<h2>Frisches Gemüse für Astronauten?</h2>
-<img src=./img/wissen.jpg height="240" width="600"> 
-<h3>Fliegendes Gewächshaus kreist um die Erde</h3>
-<p>Dass Pflanzen ohne Schwerkraft im Weltraum wachsen können, haben Experimente auf der ISS bewiesen. <br>Mit einem Gewächshaus im All wollen Forscher nun beobachten, wie gut Astronauten künftig bei Missionen mit frischem Gemüse versorgt werden können.</p><br>
+    <a href="https://www.n-tv.de/technik/"><h1>Technik</h1></a>
+    <h2>Wohnzimmer-Spaß für Jung und Alt</h2> 
+    <img src="https://bilder1.n-tv.de/img/incoming/crop20676604/7509157541-cImg_17_6-w680/super-mario-party.jpg" alt="technik" > 
+    <h3>Super Mario Party liefert Minispiel-Wahnsinn</h3>
+    <p>In Super Mario Party darf wieder gepuzzelt, gebastelt, gesammelt und draufgehauen werden - Verbrüderungen und Intrigen mit inbegriffen. <br>Die Videospielreihe macht nun erstmals auf der Nintendo Switch halt und begeistert nicht nur Kids. Von Michael Bauer</p><br>
 </div>
 </section>
 <section>
 <div>
-<a href="https://www.n-tv.de/technik/"><h1>Technik</h1></a>
-<h2>Wohnzimmer-Spaß für Jung und Alt</h2> 
-<img src="https://bilder1.n-tv.de/img/incoming/crop20676604/7509157541-cImg_17_6-w680/super-mario-party.jpg">
-<h3>Super Mario Party liefert Minispiel-Wahnsinn</h3>
-<p>In Super Mario Party darf wieder gepuzzelt, gebastelt, gesammelt und draufgehauen werden - Verbrüderungen und Intrigen mit inbegriffen. <br>Die Videospielreihe macht nun erstmals auf der Nintendo Switch halt und begeistert nicht nur Kids. Von Michael Bauer</p><br>
-</div>
-</section>
-<section>
-<div>
-<a href="https://www.n-tv.de/wetter/"><h1>Wetter</h1></a> 
-<h2>Wetterbericht für Deutschland (21.10.2018): Im Norden zieht erster Regen auf</h2> 
-<p><strong>Der Sonntag zeigt sich anfangs im äußersten Südosten mit mehr Wolken. In den meisten Regionen ist es nach Nebelauflösung aber oft locker bewölkt oder sonnig. Im Nordwesten ziehen später teils dichte Wolken auf und gegen Abend kann es hier ersten Regen geben. Die Höchstwerte erreichen 11 bis 20 Grad. Der Wind weht überwiegend schwach, an der See mäßig bis frisch. <br>Im Norden aus Südwest bis West, nach Südwesten hin aus Nordost.</strong></p><br>
-<p>In der Nacht zum Montag zieht von der Nordsee ein schwaches Regenband auf. <br>In der Mitte und im Süden ist es überwiegend leicht bewölkt bis klar und noch trocken. Die Tiefstwerte liegen zwischen 12 und -3 Grad, mit den tiefsten Werten in Franken. Schwacher, zu den Küsten hin mäßiger bis frischer Westwind, im Süden aus unterschiedlichen Richtungen.Am Montag zieht das Regenband weiter in die Mitte. Dahinter stellt sich ein Wechsel aus Sonne und Wolken ein. Nach Süden hin ist es nach einzelnen Nebelfeldern oft sonnig oder höchstens locker bewölkt und trocken. Auch an der Ostsee gibt es längere heitere Abschnitte. Die Höchstwerte erreichen 10 bis 18 Grad. <br>Im Süden weht ein schwacher Nordostwind, sonst ein schwacher bis mäßiger Nordwestwind.
+    <a href="https://www.n-tv.de/wetter/"><h1>Wetter</h1></a> 
+    <h2>Wetterbericht für Deutschland (21.10.2018): Im Norden zieht erster Regen auf</h2> 
+    <p><strong>Der Sonntag zeigt sich anfangs im äußersten Südosten mit mehr Wolken. In den meisten Regionen ist es nach Nebelauflösung aber oft locker bewölkt oder sonnig. Im Nordwesten ziehen später teils dichte Wolken auf und gegen Abend kann es hier ersten Regen geben. Die Höchstwerte erreichen 11 bis 20 Grad. Der Wind weht überwiegend schwach, an der See mäßig bis frisch. <br>Im Norden aus Südwest bis West, nach Südwesten hin aus Nordost.</strong></p><br>
+    <p>In der Nacht zum Montag zieht von der Nordsee ein schwaches Regenband auf. <br>In der Mitte und im Süden ist es überwiegend leicht bewölkt bis klar und noch trocken. Die Tiefstwerte liegen zwischen 12 und -3 Grad, mit den tiefsten Werten in Franken. Schwacher, zu den Küsten hin mäßiger bis frischer Westwind, im Süden aus unterschiedlichen Richtungen.Am Montag zieht das Regenband weiter in die Mitte. Dahinter stellt sich ein Wechsel aus Sonne und Wolken ein. Nach Süden hin ist es nach einzelnen Nebelfeldern oft sonnig oder höchstens locker bewölkt und trocken. Auch an der Ostsee gibt es längere heitere Abschnitte. Die Höchstwerte erreichen 10 bis 18 Grad. <br>Im Süden weht ein schwacher Nordostwind, sonst ein schwacher bis mäßiger Nordwestwind.
 
     Wie es mit dem Wetter weitergeht, erfahren Sie im 7-Tage-Trend.Wussten Sie, dass der 16. Oktober der Welttag des Brotes ist? Hier bekommen Sie spannende Fakten zur deutschen Brotkultur.</p><br>
-  <img src="https://tools.n-tv.de/das_wetter/images/gen/v2/deutschland_668x792/1.png">
+    <img src="https://tools.n-tv.de/das_wetter/images/gen/v2/deutschland_668x792/1.png" alt="wetterkarte">
+</div>
 </section>
+<br>
+<div>
+    <h3>Bilder Foto</h3>
+        <img src="./imga2/fotopng24.png" alt="Foto PNG 24">
+        <img src="./imga2/fotopng8.png" alt="Foto PNG 8"><p>Beste Varriante= PNG8, da das Bild beim herranzoomen in dieser Auflösung am Wenigstens unscharf wird. Es sind mehr Details zu erkennen als bei den andern Auflösungen. </p>
+        <img src="./imga2/fotogif.gif" alt="Foto GIF">
+</div>
+<div>
+        <img src="./imga2/fotojpg100.jpg" alt="Foto JPG 100%">
+        <img src="./imga2/fotojpg75.jpg" alt="FotoJPG 75%">
+        <img src="./imga2/fotojpg25.jpg" alt="Foto JPG 25%">
 </div>
 <br>
-<section>
-        <h3>Bilder Foto</h3>
-        <div>
-            <img src="./imga2/fotopng24.png" alt="Foto PNG 24">
-            <img src="./imga2/fotopng8.png" alt="Foto PNG 8">
-            <img src="./imga2/fotogif.gif" alt="Foto GIF">
-        </div>
-        <div>
-            <img src="./imga2/fotojpg100.jpg"alt="Foto JPG 100%">
-            <img src="./imga2/fotojpg75.jpg" alt="FotoJPG 75%">
-            <img src="./imga2/fotojpg25.jpg" alt="Foto JPG 25%">
-        </section>
-        <br>
-<section>
-        <h3>Bilder Infografik</h3>
-        <div>
-            <img src="./imga2/infopng24.png" alt="Infografik PNG 24"> <!--Beste Lösung, da das Bild beim herranzumen in dieser Auflösung am Wenigstens unscharf wird. Es sind mehr Details zu erkennen als bei den andern Auflösungen.-->
-            <img src="./imga2/infopng8.png" alt="Infografik PNG 8">
-            <img src="./imga2/infogif.gif" alt="Infografik GIF">
-        </div>
-        <div>
-            <img src="./imga2/infojpg100.jpg"alt="Infografik JPG 100%">
-            <img src="./imga2/infojpg75.jpg" alt="Infografik JPG 75%"> <!--Beste Varriante, da das Bild eine für die Webseite passende größe hat. Zudem sind Schrift und Grafik beide gut erkennbar und leserlich-->
-            <img src="./imga2/infojpg25.jpg" alt="Infografik JPG 25%">
-        </section>
-        <br>
-        <section>
-                <h3>Bilder freigestelltes Objekt</h3>
-                <div>
-                    <img src="./imga2/freipng24.png" alt="freisgestelles Objekt PNG 24"> <!--für mich die beste Varriante, da das Objekt ohne störenden Hintergund angezeigt wird, somit ist es einfacher diesen seperat zu bearbeiten bzw. zu gestallten.-->
-                    <img src="./imga2/freipng8.png" alt="freisgestelles Objekt  PNG 8">
-                    <img src="./imga2/freigif.gif" alt=" freisgestelles Objekt GIF">
-                </div>
-                <div>
-                    <img src="./imga2/freijpg100.jpg"alt=" freisgestelles Objekt JPG 100%">
-                    <img src="./imga2/freijpg75.jpg" alt="freisgestelles Objekt  JPG 75%">
-                    <img src="./imga2/freijpg25.jpg" alt="freisgestelles Objekt  JPG 25%">
-                </section>
+<div>
+    <h3>Bilder Infografik</h3>
+        <img src="./imga2/infopng24.png" alt="Infografik PNG 24"> 
+        <img src="./imga2/infopng8.png" alt="Infografik PNG 8">
+        <img src="./imga2/infogif.gif" alt="Infografik GIF">        
+</div>
+<div>
+        <img src="./imga2/infojpg100.jpg" alt="Infografik JPG 100%">
+        <img src="./imga2/infojpg75.jpg" alt="Infografik JPG 75%"> <p>Beste Varriante=JPG75, da das Bild eine für die Webseite passende größe hat. Zudem sind Schrift und Grafik beide gut erkennbar und leserlich</p>
+        <img src="./imga2/infojpg25.jpg" alt="Infografik JPG 25%">
+</div>
+<br>
+<div>
+    <h3>Bilder freigestelltes Objekt</h3>
+        <img src="./imga2/freipng24.png" alt="freisgestelles Objekt PNG 24"> <p>Beste Varriante=PNG24, da das Objekt ohne störenden Hintergund angezeigt wird, somit ist es einfacher diesen seperat zu bearbeiten bzw. zu gestallten.--></p>
+        <img src=".imga2/freipng8.png" alt="freigestelltes Objekt PNG 8">
+        <img src="./imga2/freigif.gif" alt=" freisgestelles Objekt GIF">
+</div>
+<div>
+        <img src="./imga2/freijpg100.jpg" alt=" freisgestelles Objekt JPG 100%">
+        <img src="./imga2/freijpg75.jpg" alt="freisgestelles Objekt  JPG 75%">
+        <img src="./imga2/freijpg25.jpg" alt="freisgestelles Objekt  JPG 25%">
+</div>
 </main>
 <footer><!--Beginn des Fußbereiches zur Darstellung aller Fußinformationen-->
-<div>
-<nav><!--nav-tag um Fußnavigation zu erstellen-->
-<h3><strong>n-tv Nachrichtenfernsehen</strong></h3>
-<section>
-<ul>
-    <li><a href="https://www.n-tv.de/mediathek/tvprogramm/">n-tv Programm</li></a>
-    <li><a href="https://www.n-tv.de/ntvintern/kontakt/">n-tv Mitschnitte</li></a>
-    <li><a href="https://www.n-tv.de/ntvintern/kontakt/">n-tv Zuschaueredaktion</li></a>
-    <li><a href="https://kommunikation.mediengruppe-rtl.de/news/n-tv/uebersicht/">n-tv Pressestelle</li></a>
-    <li><a href="https://www.n-tv.de/mediathek/teletext/">Teletxt</li></a>
-    <li><a href="https://www.n-tv.de/mediathek/livestream/">Livestream</li></a>
-    <li><a href="https://www.n-tv.de/werbung/">Werben bei n-tv</li></a>
-    <li><a href="http://www.mediengruppe-rtl.de/jobs/">Jobs bei n-tv</li></a>
-    <li><a href="https://www.n-tv.de/ntvintern/digital-signage/">n-tv Digital Signage</li></a>
-    <li><a href="https://www.n-tv.de/ntvintern/videolizenzierung/">Videolizenzierung</li></a>
-    <li><a href="https://www.n-tv.de/ntvintern/Impressum-article9517336.html">Impressum</li></a>
-</ul>
+    <nav><!--nav-tag um Fußnavigation zu erstellen-->
+<section>       
+        <h3><strong>n-tv Nachrichtenfernsehen</strong></h3>
+    <ul>
+        <li><a href="https://www.n-tv.de/mediathek/tvprogramm/">n-tv Programm</a></li>
+        <li><a href="https://www.n-tv.de/ntvintern/kontakt/">n-tv Mitschnitte</a></li>
+        <li><a href="https://www.n-tv.de/ntvintern/kontakt/">n-tv Zuschaueredaktion</a></li>
+        <li><a href="https://kommunikation.mediengruppe-rtl.de/news/n-tv/uebersicht/">n-tv Pressestelle</a></li>
+        <li><a href="https://www.n-tv.de/mediathek/teletext/">Teletxt</a></li>
+        <li><a href="https://www.n-tv.de/mediathek/livestream/">Livestream</a></li>
+        <li><a href="https://www.n-tv.de/werbung/">Werben bei n-tv</a></li>
+        <li><a href="http://www.mediengruppe-rtl.de/jobs/">Jobs bei n-tv</a></li>
+        <li><a href="https://www.n-tv.de/ntvintern/digital-signage/">n-tv Digital Signage</a></li>
+        <li><a href="https://www.n-tv.de/ntvintern/videolizenzierung/">Videolizenzierung</a></li>
+        <li><a href="https://www.n-tv.de/ntvintern/Impressum-article9517336.html">Impressum</a></li>
+    </ul>
 </section>
-<h3><strong>Software</strong></h3>
 <section>
-<ul>
-<li><a href="https://www.n-tv.de/apps/">RSS-Feeds</li></a>
-</ul>
+        <h3><strong>Software</strong></h3>
+    <ul>
+        <li><a href="https://www.n-tv.de/apps/">RSS-Feeds</a></li>
+    </ul>
 </section>
-<h3><strong>n-tv Tipps</strong></h3>
 <section>
-<ul>
-<li><a href="https://www.n-tv.de/ntv_tipps/">Tipps</li></a>
-<li><a href="https://www.n-tvgo.de/">n-tv go!</li></a>
-<li><a href="http://n-tv-art-editionen.de/">nt-v Art</li></a>
-</ul>
+        <h3><strong>n-tv Tipps</strong></h3>
+    <ul>
+        <li><a href="https://www.n-tv.de/ntv_tipps/">Tipps</a></li>
+        <li><a href="https://www.n-tvgo.de/">n-tv go!</a></li>
+        <li><a href="http://n-tv-art-editionen.de/">nt-v Art</a></li>
+    </ul>
 </section>
-<h3><strong>Social Networks</strong></h3>
 <section>
-<ul>
-<li><a href="https://www.facebook.com/ntvNachrichten">Facebook</li></a>
-<li><a href="https://twitter.com/ntvde">Twitter</li></a>
-<li><a href="https://www.pinterest.de/ntvde/">Pinterest</li></a>
-<li><a href="https://www.instagram.com/ntv_nachrichten/">Instagram</li></a>
-</ul>
+        <h3><strong>Social Networks</strong></h3>
+    <ul>
+        <li><a href="https://www.facebook.com/ntvNachrichten">Facebook</a></li>
+        <li><a href="https://twitter.com/ntvde">Twitter</a></li>
+        <li><a href="https://www.pinterest.de/ntvde/">Pinterest</a></li>
+        <li><a href="https://www.instagram.com/ntv_nachrichten/">Instagram</a></li>
+    </ul> 
 </section>
-<h3><strong>Kooperationspartner</strong></h3>
 <section>
-<ul>
-<li><a href="https://www.advogarant.de/">Advogarant</li></a>
-<li><a href="https://www.stepmap.de/">Stepmap</li></a>
-<li><a href="https://firmen.n-tv.de/">Firmen</li></a>
-<li><a href="https://www.n-tv.de/marktplatz/carsharing/">Carsharing</li></a>
-<li><a href="https://www.n-tv.de/Spezial/Lexware/">Buchhaltungssoftware</li></a>
-</ul>
+        <h3><strong>Kooperationspartner</strong></h3>
+    <ul>
+        <li><a href="https://www.advogarant.de/">Advogarant</a></li>
+        <li><a href="https://www.stepmap.de/">Stepmap</a></li>
+        <li><a href="https://firmen.n-tv.de/">Firmen</a></li>
+        <li><a href="https://www.n-tv.de/marktplatz/carsharing/">Carsharing</a></li>
+        <li><a href="https://www.n-tv.de/Spezial/Lexware/">Buchhaltungssoftware</a></li>
+    </ul>
 </section>
-</div>
 </nav>
 <div>
-<a  href="https://www.n-tv.de/ntvintern/Impressum-article9517336.html">Impressum</a><br><!--Angabe der Kontaktdaten im Fußbereich-->
-<a  href="https://www.n-tv.de/ntvintern/Datenschutzerklaerung-article15745191.html">Datenschutzerklärungen</a><br>
-<a  href="https://www.n-tv.de/ntvintern/n-tv-Webseiten-article495196.html">Nutzungsbedingungen</a><br>
-<a  href="https://www.n-tv.de/werbung/">Vermarktet von IP Deutschland GmbH</a><br>
-<a  href="https://www.nachrichtenmanufaktur.de/">produziert von der Nachrichtenmanufaktur GmbH</a><br>
-<p>© n-tv.de Alle Rechte vorbehalten</p>
+        <a  href="https://www.n-tv.de/ntvintern/Impressum-article9517336.html">Impressum</a><br><!--Angabe der Kontaktdaten im Fußbereich-->
+        <a  href="https://www.n-tv.de/ntvintern/Datenschutzerklaerung-article15745191.html">Datenschutzerklärungen</a><br>
+        <a  href="https://www.n-tv.de/ntvintern/n-tv-Webseiten-article495196.html">Nutzungsbedingungen</a><br>
+        <a  href="https://www.n-tv.de/werbung/">Vermarktet von IP Deutschland GmbH</a><br>
+        <a  href="https://www.nachrichtenmanufaktur.de/">produziert von der Nachrichtenmanufaktur GmbH</a><br>
+        <p>© n-tv.de Alle Rechte vorbehalten</p>
 </div>
 </footer> <!--Ende des Fußbereiches-->
 </body>
